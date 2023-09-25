@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Products</title>
+    <link rel="stylesheet" href="products_style.css">
+   
+    <p style="text-align: center; font-weight: bold;">
+        Hits:<span id="hits_span">0</span>
+        Spins:<span id="spins_span">0</span>
+        Hit/Spin:<span id="hit_spin_span">0</span>
+    </p>
+
+    <p style="text-align: center;">
+   <script>
+       const store_name="Kevin Tran";
+       let first_name= "Kevin";
+       let last_name= "Tran";
+      
+       let name= "<span style='font-weight: bold; font-size: 600%;'>" + first_name + 
+        "</span>" +
+        "<span style='font-style: italic; font-size: 600%;'>" + last_name +
+        "</span>" +
+        "<span style='font-style: italic; font-size: 600%;'>" + "'s" + 
+        "</span>";
+        document.write(name)
+   </script>
+
+</head>
+<body onload="hits_span.innerHTML = hits; spins_span.innerHTML = spins;">
+    
+    <header>
+        <h1>
+        Used Smart Phone Store
+        </h1>    
+    </header>
+
+    <div><main>
+    <section class="item" onmouseover="changeClassName(this); spins_span.innerHTML = spins++; hit_spin_span.innerHTML= (hits/spins).toFixed(2);" 
+             onclick="resetClassName(this);hits_span.innerHTML = hits++; hit_spin_span.innerHTML=(hits/spins).toFixed(2);">
+        <h2>HTC</h2>
+        <p>&dollar;40.00</p>
+        <img src="http://dport96.github.io/ITM352/morea/080.flow-control-II/HTC.jpg">
+    </section>
+    
+    <section class="item" onmouseover="changeClassName(this); spins_span.innerHTML = spins++; hit_spin_span.innerHTML= (hits/spins).toFixed(2);" 
+    onclick="resetClassName(this);hits_span.innerHTML = hits++; hit_spin_span.innerHTML=(hits/spins).toFixed(2);">
+        <h2>Apple</h2>
+       <p>&dollar;75.00</p>
+        <img src="http://dport96.github.io/ITM352/morea/080.flow-control-II/iphone-3gs.jpg">
+    </section>
+
+    <section class="item" onmouseover="changeClassName(this); spins_span.innerHTML = spins++; hit_spin_span.innerHTML= (hits/spins).toFixed(2);" 
+             onclick="resetClassName(this);hits_span.innerHTML = hits++; hit_spin_span.innerHTML=(hits/spins).toFixed(2);">
+        <h2>Nokia</h2>
+        <p>&dollar;35.00</p>
+        <img src="http://dport96.github.io/ITM352/morea/080.flow-control-II/Nokia.jpg">
+    </section>
+
+    <section class="item" onmouseover="changeClassName(this); spins_span.innerHTML = spins++; hit_spin_span.innerHTML= (hits/spins).toFixed(2);" 
+             onclick="resetClassName(this);hits_span.innerHTML = hits++; hit_spin_span.innerHTML=(hits/spins).toFixed(2);">
+        <h2>Samsung</h2>
+        <p>&dollar;45.00</p>
+        <img src="http://dport96.github.io/ITM352/morea/080.flow-control-II/Samsung.jpg">
+    </section>
+
+    <section class="item" onmouseover="changeClassName(this); spins_span.innerHTML = spins++; hit_spin_span.innerHTML= (hits/spins).toFixed(2);" 
+    onclick="resetClassName(this);hits_span.innerHTML = hits++; hit_spin_span.innerHTML=(hits/spins).toFixed(2);">
+        <h2>Blackberry</h2>
+        <p>&dollar;10.00</p>
+        <img src="http://dport96.github.io/ITM352/morea/080.flow-control-II/Blackberry.jpg">
+    </section>
+</main></div> 
+
+
+<footer>
+    <h1>
+    
+     <script> document.write("Your One Stop for Used Phone - " + store_name) </script>   
+    </h1>  
+</footer>
+
+<script>
+    function changeClassName(element) 
+    {element.className='item rotate';}
+    function resetClassName(element)
+    {element.className='item';}
+    let hits = 0;
+    let spins= 0;
+</script>
+
+<script>
+<table border="1" style="margin-left: auto; margin-right: auto; text-align: center;">
+    <tbody>
+    <tr><th colspan="2"><h1>${footer}'s</h1></th></tr>
+    <tr><td>1.</td><td><br>Copyright @ Dan Port</td></tr>
+    <tr><td>2.</td><td>2021</td></tr>
+    <tr><td>3.</td><td>11:15 AM</td></tr>
+</tbody></table>
+
+document.write(table)
+
+
+</script>
+
+
+</body>
+</html>
