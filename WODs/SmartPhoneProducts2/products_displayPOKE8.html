@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Products</title>
+    <link rel="stylesheet" href="products_style.css">
+   
+    <p style="text-align: center; font-weight: bold;">
+        Hits:<span id="hits_span">0</span>
+        Spins:<span id="spins_span">0</span>
+        Hit/Spin:<span id="hit_spin_span">0</span> <br><br>
+        You win:<span id="win_span">pending...</span>
+    </p>
+
+    <p style="text-align: center;">
+   <script>
+       const store_name="Kevin Tran";
+       let first_name= "Kevin " ;
+       let last_name= "Tran";
+
+
+       let name= "<span style='font-weight: bold; font-size: 600%;'>" + first_name  + 
+        "</span>" + 
+        "<span style='font-style: italic; font-size: 600%;'>" +  last_name  +
+        "</span>" +
+        "<span style='font-style: italic; font-size: 600%;'>" + "'s" + 
+        "</span>"
+
+        document.write(name)
+   </script>
+
+</head>    
+    <header>
+        <h1>
+        Used Smart Phone Store
+        </h1>    
+    </header>
+
+<div><main>
+    <main class="main">
+</main></div> 
+
+
+<script>
+
+let tableheader = `Your One Stop For Used Phones - ${first_name[0]}.${last_name[0]}'s`;
+let line = 1;
+let now = new Date ();
+let currentyear = now.getFullYear ();
+let hours = now.getHours ();
+let minutes = now.getMinutes();
+let amPm = (hours <12) ? 'AM': 'PM'; hours = (hours +11) % 12 +1;
+let table = `
+        <table border="1" style="margin-left: auto; margin-right: auto; text-align: center;">
+        <tbody>
+        <tr><th colspan="2">
+            <h1>${tableheader}</h1>
+        </th></tr>
+
+        <tr><td>${line++}.</td>
+        <td>Copyright @ ${first_name} ${last_name}</td></tr>
+        
+        <tr><td>${line++}</td>
+            <td>${currentyear}</td></tr>
+
+        <tr><td>${line++}.</td>
+            <td>${hours}:${(minutes <10 ?'0 ':'')+ minutes} ${amPm} </td></tr>
+    </tbody> 
+    </table>`;
+
+    document.write(table);
+
+</script>
+
+</body>
+<script src="products_displayPOKE8.js"></script>
+
+</html>
