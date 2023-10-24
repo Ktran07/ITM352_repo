@@ -60,7 +60,7 @@ function generateItemRows()
     if(validationMessage !== "")
       { hasErrors = true;
         let row = table.insertRow();
-        row.insertCell(0).insertHTML = item.brand;
+        row.insertCell(0).innerHTML = item.brand;
         row.insertCell(1).innerHTML = validationMessage;
       }
       else if(itemQuantity > 0)
