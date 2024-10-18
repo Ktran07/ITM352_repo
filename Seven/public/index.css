@@ -243,16 +243,114 @@ button:hover {
     animation: fly 12s linear infinite;
 }
 
+
 /* PACMAN */
 .PACMAN {
     position: absolute;
-    bottom: 50%;
+    bottom: 45%;
     left: -100px;
     width: 200px;
     height: 200px;  /* when putting at 100 pacman stuck right at the title x width 300px */
     background-image: url('https://www.icegif.com/wp-content/uploads/2023/08/icegif-215.gif'); /* Replace 'santa.png' with the path to your Santa image */
     background-size: cover;
     animation: fly 17s linear infinite;
+}
+
+/* moon */
+.moon {
+    position: absolute;
+    bottom: 60%;
+    left: -100px;
+    width: 200px;
+    height: 200px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://wallpapers.com/images/featured/blue-moon-png-5qzd1ao6eq72mlxc.jpg'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 20s linear infinite;
+}
+
+/* Totoro */
+.Totoro {
+    position: absolute;
+    bottom: 32%;
+    left: -100px;
+    width: 200px;
+    height: 200px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://33.media.tumblr.com/dbde3eb8a96b0960464e3e06ee5ab4df/tumblr_nfyr8rV7ku1tomvn7o1_500.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 25s linear infinite;
+}
+
+/* mario */
+.Mario {
+    position: absolute;
+    bottom: 30%;
+    left: -100px;
+    width: 200px;
+    height: 210px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://i.redd.it/hu1pxnoj2o061.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 18s linear infinite;
+}
+
+/* santa on bicycle */
+.Luigi {
+    position: absolute;
+    bottom: 31%;
+    left: -100px;
+    width: 200px;
+    height: 190px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://img1.picmix.com/output/stamp/thumb/4/4/5/9/319544_bff40.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 9s linear infinite;
+}
+
+/* Sanrio */
+.Cinnamon {
+    position: absolute;
+    bottom: 27%;
+    left: -100px;
+    width: 250px;
+    height: 200px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://i.pinimg.com/originals/86/25/6f/86256fedd537f6883fa9d524afd393e6.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 10s linear infinite;
+}
+
+
+/* Sanrio */
+.Cinnamon {
+    position: absolute;
+    bottom: 34%;
+    left: -100px;
+    width: 250px;
+    height: 170px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://i.pinimg.com/originals/86/25/6f/86256fedd537f6883fa9d524afd393e6.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 10s linear infinite;
+}
+
+/* Northpole */
+.Northpole {
+    position: absolute;
+    bottom: 34.5%;
+    left: -100px;
+    width: 250px;
+    height: 200px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://www.misskatecuttables.com/uploads/shopping_cart/12463/large_north-pole-sign-1020.png'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 15s linear infinite;
+}
+
+/* train  */
+.person {
+    position: absolute;
+    bottom: 30%;
+    left: -100px;
+    width: 500px;
+    height: 250px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://cdn.pixabay.com/animation/2023/03/19/07/28/07-28-58-728_512.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 10s linear infinite;
 }
 
 /* Snowy top*/
