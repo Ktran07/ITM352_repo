@@ -415,7 +415,7 @@ button:hover {
 /* Create multiple snowflakes with different positions and animation delays */
 .snowflakex:nth-child(1) {
     left: 10%;
-    animation-duration: 3s;
+    animation-duration: 14s;
 }
 
 .snowflakex:nth-child(2) {
