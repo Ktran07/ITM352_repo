@@ -240,7 +240,7 @@ button:hover {
     animation: fly 12s linear infinite;
 }
 
-/* PACMAN copy*/
+/* PACMAN */
 .PACMAN {
     position: absolute;
     bottom: 45%;
@@ -252,7 +252,7 @@ button:hover {
     animation: fly 17s linear infinite;
 }
 
-/* moon copy*/
+/* moon */
 .moon {
     position: absolute;
     bottom: 60%;
@@ -264,7 +264,7 @@ button:hover {
     animation: fly 20s linear infinite;
 }
 
-/* Totoro copy*/
+/* Totoro */
 .Totoro {
     position: absolute;
     bottom: 32%;
@@ -276,7 +276,7 @@ button:hover {
     animation: fly 25s linear infinite;
 }
 
-/* mario copy*/
+/* mario */
 .Mario {
     position: absolute;
     bottom: 30%;
@@ -288,7 +288,7 @@ button:hover {
     animation: fly 18s linear infinite;
 }
 
-/* santa on bicycle copy*/
+/* santa on bicycle */
 .Luigi {
     position: absolute;
     bottom: 31%;
@@ -300,7 +300,7 @@ button:hover {
     animation: fly 9s linear infinite;
 }
 
-/* Sanrio copy*/
+/* Sanrio */
 .Cinnamon {
     position: absolute;
     bottom: 27%;
@@ -313,7 +313,7 @@ button:hover {
 }
 
 
-/* Sanrio copy*/
+/* Sanrio */
 .Cinnamon {
     position: absolute;
     bottom: 27%;
@@ -325,7 +325,7 @@ button:hover {
     animation: fly 10s linear infinite;
 }
 
-/* Northpole copy*/
+/* Northpole */
 .Northpole {
     position: absolute;
     bottom: 34.5%;
@@ -337,7 +337,7 @@ button:hover {
     animation: fly 15s linear infinite;
 }
 
-/* train copy */
+/* train  */
 .person {
     position: absolute;
     bottom: 20%;
